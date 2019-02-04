@@ -33,6 +33,8 @@
         "otherModules": [],
         "enableTranslation": true,
         "nativeLanguage": "en",
-        "languages": ["en", "fr"]
+        "languages": ["en", "fr"],
+        "herokuAppName": "twenty-one-points",
+        "herokuDeployType": "git"
     }
 }
