@@ -35,7 +35,7 @@ script:
   - ./gradlew clean test
   - ./gradlew npm_run_test -PnodeInstall --no-daemon
   - ./gradlew bootWar -Pprod -x test
-  - ./gradlew deployHeroku
+  - ./deploy.sh
 notifications:
   webhooks:
     on_success: change  # options: [always|never|change] default: always
