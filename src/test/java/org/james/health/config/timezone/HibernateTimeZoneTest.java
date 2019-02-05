@@ -1,6 +1,6 @@
 package org.james.health.config.timezone;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.repository.timezone.DateTimeWrapper;
 import org.james.health.repository.timezone.DateTimeWrapperRepository;
 import org.junit.Before;
@@ -23,7 +23,7 @@ import static org.assertj.core.api.Assertions.assertThat;
  * Unit tests for the UTC Hibernate configuration.
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 public class HibernateTimeZoneTest {
 
     @Autowired

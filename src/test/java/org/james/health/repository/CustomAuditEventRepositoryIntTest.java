@@ -1,6 +1,6 @@
 package org.james.health.repository;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.config.Constants;
 import org.james.health.config.audit.AuditEventConverter;
 import org.james.health.domain.PersistentAuditEvent;
@@ -31,7 +31,7 @@ import static org.james.health.repository.CustomAuditEventRepository.EVENT_DATA_
  * @see CustomAuditEventRepository
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 @Transactional
 public class CustomAuditEventRepositoryIntTest {
 

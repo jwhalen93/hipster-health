@@ -22,18 +22,18 @@ import java.util.Collection;
 
 @SpringBootApplication
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
-public class TwentyOnePointsApp {
+public class HipsterHealthApp {
 
-    private static final Logger log = LoggerFactory.getLogger(TwentyOnePointsApp.class);
+    private static final Logger log = LoggerFactory.getLogger(HipsterHealthApp.class);
 
     private final Environment env;
 
-    public TwentyOnePointsApp(Environment env) {
+    public HipsterHealthApp(Environment env) {
         this.env = env;
     }
 
     /**
-     * Initializes TwentyOnePoints.
+     * Initializes HipsterHealth.
      * <p>
      * Spring profiles can be configured with a program argument --spring.profiles.active=your-active-profile
      * <p>
@@ -58,7 +58,7 @@ public class TwentyOnePointsApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        SpringApplication app = new SpringApplication(TwentyOnePointsApp.class);
+        SpringApplication app = new SpringApplication(HipsterHealthApp.class);
         DefaultProfileUtil.addDefaultProfile(app);
         Environment env = app.run(args).getEnvironment();
         logApplicationStartup(env);

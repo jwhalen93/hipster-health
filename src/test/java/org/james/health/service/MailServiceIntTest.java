@@ -1,7 +1,7 @@
 package org.james.health.service;
 import org.james.health.config.Constants;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.domain.User;
 import io.github.jhipster.config.JHipsterProperties;
 import org.junit.Before;
@@ -30,7 +30,7 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 public class MailServiceIntTest {
 
     @Autowired

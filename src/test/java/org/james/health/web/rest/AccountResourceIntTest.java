@@ -1,6 +1,6 @@
 package org.james.health.web.rest;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.config.Constants;
 import org.james.health.domain.Authority;
 import org.james.health.domain.User;
@@ -48,7 +48,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AccountResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 public class AccountResourceIntTest {
 
     @Autowired

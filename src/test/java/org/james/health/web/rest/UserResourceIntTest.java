@@ -1,6 +1,6 @@
 package org.james.health.web.rest;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.domain.Authority;
 import org.james.health.domain.User;
 import org.james.health.repository.UserRepository;
@@ -43,7 +43,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see UserResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 public class UserResourceIntTest {
 
     private static final String DEFAULT_LOGIN = "johndoe";

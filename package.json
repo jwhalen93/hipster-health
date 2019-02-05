@@ -1,7 +1,7 @@
 {
-    "name": "twenty-one-points",
+    "name": "hipster-health",
     "version": "0.0.0",
-    "description": "Description for TwentyOnePoints",
+    "description": "Description for HipsterHealth",
     "private": true,
     "license": "UNLICENSED",
     "cacheDirectories": [

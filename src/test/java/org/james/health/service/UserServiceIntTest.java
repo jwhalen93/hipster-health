@@ -1,6 +1,6 @@
 package org.james.health.service;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.config.Constants;
 import org.james.health.domain.User;
 import org.james.health.repository.search.UserSearchRepository;
@@ -39,7 +39,7 @@ import static org.mockito.Mockito.when;
  * @see UserService
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 @Transactional
 public class UserServiceIntTest {
 

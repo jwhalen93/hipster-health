@@ -11,7 +11,7 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
             [
                 {
                     path: 'admin',
-                    loadChildren: './admin/admin.module#TwentyOnePointsAdminModule'
+                    loadChildren: './admin/admin.module#HipsterHealthAdminModule'
                 },
                 ...LAYOUT_ROUTES
             ],
@@ -20,4 +20,4 @@ const LAYOUT_ROUTES = [navbarRoute, ...errorRoute];
     ],
     exports: [RouterModule]
 })
-export class TwentyOnePointsAppRoutingModule {}
+export class HipsterHealthAppRoutingModule {}
