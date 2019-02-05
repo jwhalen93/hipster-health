@@ -1,11 +1,11 @@
 version: '2'
 services:
-    twentyonepoints-postgresql:
+    HipsterHealth-postgresql:
         image: postgres:10.4
         # volumes:
-        #     - ~/volumes/jhipster/TwentyOnePoints/postgresql/:/var/lib/postgresql/data/
+        #     - ~/volumes/jhipster/HipsterHealth/postgresql/:/var/lib/postgresql/data/
         environment:
-            - POSTGRES_USER=TwentyOnePoints
+            - POSTGRES_USER=HipsterHealth
             - POSTGRES_PASSWORD=
         ports:
             - 5432:5432

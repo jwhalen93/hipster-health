@@ -1,6 +1,6 @@
 package org.james.health.web.rest;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.config.audit.AuditEventConverter;
 import org.james.health.domain.PersistentAuditEvent;
 import org.james.health.repository.PersistenceAuditEventRepository;
@@ -33,7 +33,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @see AuditResource
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 @Transactional
 public class AuditResourceIntTest {
 

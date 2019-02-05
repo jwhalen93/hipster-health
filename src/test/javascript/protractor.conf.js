@@ -22,6 +22,10 @@ exports.config = {
 
     baseUrl: 'http://localhost:8080/',
 
+    chromeDriver: '/mnt/c/Users/Jake/Documents/hipster/node_modules/webdriver-manager/selenium',
+
+    seleniumServerJar: '/mnt/c/Users/Jake/Documents/hipster/node_modules/webdriver-manager/selenium/selenium-server-standalone-3.12.0.jar',
+
     framework: 'mocha',
 
     SELENIUM_PROMISE_MANAGER: false,

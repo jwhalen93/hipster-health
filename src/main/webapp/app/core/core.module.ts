@@ -17,7 +17,7 @@ import locale from '@angular/common/locales/en';
         DatePipe
     ]
 })
-export class TwentyOnePointsCoreModule {
+export class HipsterHealthCoreModule {
     constructor() {
         registerLocaleData(locale);
     }

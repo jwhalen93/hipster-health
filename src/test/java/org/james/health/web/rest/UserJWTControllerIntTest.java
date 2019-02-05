@@ -1,6 +1,6 @@
 package org.james.health.web.rest;
 
-import org.james.health.TwentyOnePointsApp;
+import org.james.health.HipsterHealthApp;
 import org.james.health.domain.User;
 import org.james.health.repository.UserRepository;
 import org.james.health.security.jwt.TokenProvider;
@@ -32,7 +32,7 @@ import static org.hamcrest.Matchers.not;
  * @see UserJWTController
  */
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = TwentyOnePointsApp.class)
+@SpringBootTest(classes = HipsterHealthApp.class)
 public class UserJWTControllerIntTest {
 
     @Autowired
